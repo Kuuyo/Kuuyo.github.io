@@ -81,6 +81,14 @@ a:active
 	max-width: 1000px;
 }
 
+@media only screen and (max-width: 1010px)
+{
+	.content
+	{	
+		max-width: 700px;
+	}
+}
+
 .section
 {
 	padding: 20px 0;
@@ -163,6 +171,15 @@ ul.projects_list li img
 
 /*Skills----------------------------------*/
 
+div.skills_list
+{
+	background-color: #191919;
+	width: 980px;
+	margin: 5px;
+	text-align: center;
+	padding: 40px 0;
+}
+
 ul.skills_list
 {
 	list-style: none;
@@ -201,6 +218,14 @@ p.about_text
 	color: #ddd;
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
+}
+
+
+/*Contact----------------------------------*/
+.social img
+{
+	margin: 5px;
+	width: 50px;
 }
 
 
