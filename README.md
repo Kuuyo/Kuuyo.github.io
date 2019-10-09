@@ -1,3 +1,3 @@
-# Kuuyo.github.io
+# My Portfolio website.
 
-# Test
+# Game Programmer | I like tools, code architecture and debugging.

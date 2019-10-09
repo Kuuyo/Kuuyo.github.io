@@ -99,6 +99,13 @@ a:active
 	background-color: #191919;
 }
 
+.pagelink
+{
+	display: block;
+	position: relative;
+	top: -120px;
+	visibility: hidden;
+}
 
 /*Header----------------------------------*/
 
@@ -141,7 +148,14 @@ ul.projects_list li
 
 ul.projects_list li img
 {
-	width: 320px;
+	width: 330px;
+}
+
+ul.projects_list li:hover
+{
+	margin: 0;
+	width: 330px;
+	height: 260px;
 }
 
 .projects_imgwrapper
@@ -156,16 +170,18 @@ ul.projects_list li img
 .projects_bar
 {
 	background-color: #101010;
-	height: 30px;
+	height: 20px;
 	text-align: center;
 	vertical-align: middle;
+	padding: 5px;
 }
 
 .projects_bar.subtitle
 {
 	font-size: 16px;
-	height: 30px;
+	height: 32px;
 	color: #bbb;
+	border-bottom: 3px solid #eee;
 }
 
 
@@ -226,6 +242,12 @@ p.about_text
 {
 	margin: 5px;
 	width: 50px;
+}
+
+.social_small img
+{
+	margin: 5px;
+	width: 30px;
 }
 
 
