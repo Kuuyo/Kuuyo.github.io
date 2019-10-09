@@ -36,15 +36,14 @@ footer
 p
 {
 	line-height: 1.5em;
+	color: #ddd;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	margin-bottom: 20px;
 }
 
 
 /*Links----------------------------------*/
-
-a
-{
-	text-decoration: none;
-}
 
 a:link
 {
@@ -134,6 +133,11 @@ a:active
 	vertical-align: middle;
 }
 
+.header_nav ul li a
+{
+	text-decoration: none;
+}
+
 
 /*Projects----------------------------------*/
 
@@ -144,6 +148,11 @@ ul.projects_list li
 	overflow: hidden;
 	display: inline-block;
 	margin: 5px;
+}
+
+ul.projects_list li a
+{
+	text-decoration: none;
 }
 
 ul.projects_list li img
@@ -218,12 +227,17 @@ p.skills_title
 	font-size: 20px;
 	font-weight: bold;
 	display: inline-block;
+	font-family: 'Roboto Condensed', sans-serif;
+	
 }
 
 p.skills_subtitle
 {
 	font-size: 24px;
 	line-height: 1.2em;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #eee;
+	margin: 0;
 }
 
 
@@ -231,9 +245,7 @@ p.skills_subtitle
 
 p.about_text
 {
-	color: #ddd;
-	font-family: 'Roboto', sans-serif;
-	font-size: 20px;
+
 }
 
 
@@ -248,6 +260,29 @@ p.about_text
 {
 	margin: 5px;
 	width: 30px;
+}
+
+.minicontact
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #191919;
+}
+
+
+/*Project Page----------------------------------*/
+.media > *
+{
+	width: 500px;
+	display: inline-block !important;
+}
+
+.project ul
+{
+	margin-left: 50px;
+	color: #ddd;
+	margin-bottom: 20px;
 }
 
 

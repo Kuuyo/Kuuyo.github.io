@@ -44,24 +44,36 @@
 		
 		<div class="section project">
 			<div class="content">
-				<h1>PerforceDiscordWebhook</h1>
-				<p>When developing <a href="punch.html">Punch</a> along with four others, we used Perforce as our source control and Discord as our communication platform.</p>
-				<p>Multiple times in the process I wanted to check things on Perforce on my phone while not at a laptop, for things such as being able to quickly look at some recent file changes and answer a question someone asked me while I was for example on a train.</p>
-				<p>This resulted in me developing a tool with the goal to get Perforce changes with changelists on Discord.</p>
-				<p>It can run both on Windows and Linux, as I deployed it to run on Heroku.</p>
-				<p>Once it detects changes, it constructs a JSON file and sends it to a Discord Webhook through curl.</p>
-				<p>Then additionally it generates a html file of the diff2 obtained from Perforce.</p>
-				<p>C++ source code is available <a href="https://github.com/Kuuyo/PerforceDiscordWebhookCpp">here</a> on GitHub. (Deployable on Heroku.)<br>
-					C# source code is available <a href="https://github.com/Kuuyo/PerforceDiscordWebhookNET">here</a> on GitHub. (Windows only, Perforce API restriction.)<br>
-					Ruby source code is available <a href="https://github.com/Kuuyo/PerforceDiscordWebhook">here</a> on GitHub. (Minimal version)
+				<h1>Punch</h1>
+				<p>PUNCH is a quick, action based, top-down, chaotic party couch game that you can play with 2 to 4 players!</p>
+				<p>Be the last man standing by crushing, drowning or obliterating your enemy using various pickups and containers! Be careful though, containers keep falling from their place inside the dock and can crush you!</p>
+				<p>This game was developed by a team of 5, 3 programmers and 2 artists, in Unity.</p>
+				<p>I was responsible for and implemented:</p>
+				<ul>
+					<li>Sound (creating and implementing)</li>
+					<li>In-Game UI (HUD, Pause Menu)</li>
+					<li>Player (movement, punching, spawning)</li>
+					<li>PickUp system (architecture, interactions, spawning) (but not the individual PickUp logic)</li>
+					<li>Input (custom, XInput backend -> more responsive, fixes Unity not supporting multiple XBOX360 controllers)</li>
+				</ul>
+				<p>And also implemented a couple of tools while developing:</p>
+				<ul>
+					<li>ParticleManager</li>
+					<li>SoundManager</li>
+					<li>UINavigator (support for navigating UI with multiple controllers)</li>
+					<li>Debug Prefab (sandbox of core game with script at the top level containing tweakable parameters)</li>
+					<li><a href="pdw.html">PerforceDiscordWebhook</a></li>
+				</ul>
+				<p>The game was also selected for the first edition of <a href="http://www.flega.be/discover-the-hottest-belgian-games-talent-at-game-pitch-cafe/">Game Pitch Café</a> in June 2019, an event where the 10 best games of the year at Digital Arts & Entertainment present their game.</p>
+				<p>The game is available <a href="https://annyse.itch.io/punch">here</a> on itch.
 				</p>
 			</div>
 		</div>
 
 		<div class="section project">
 			<div class="content media">
-				<img src="../img/pdw_screenshot.png">
-				<img src="../img/pdw_screenshot2.png">
+				<iframe width="500" height="281" src="https://www.youtube.com/embed/zVDBoYF7Cfo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">Blocks and robots! <a href="https://twitter.com/hashtag/gamepitchcafe?src=hash&amp;ref_src=twsrc%5Etfw">#gamepitchcafe</a> <a href="https://twitter.com/hashtag/gamedev?src=hash&amp;ref_src=twsrc%5Etfw">#gamedev</a> <a href="https://t.co/mnJcwzl8yC">pic.twitter.com/mnJcwzl8yC</a></p>&mdash; Alex Vanden Abeele (@alexvdabeele) <a href="https://twitter.com/alexvdabeele/status/1141393426027634689?ref_src=twsrc%5Etfw">June 19, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 			</div>		
 		</div>
 
