@@ -45,13 +45,22 @@
 		<div class="section project">
 			<div class="content">
 				<h1>DigDug</h1>
-				<p>Under Construction - Come back later</p>
+				<p>A small 2D engine started from Minigin with DigDug as example game.<br>
+				Minigin is an SDL-based mini engine with GLM.</p>
+				<p>The engine and game is entirely C++ code based, no editor. The Engine is first built as a lib and included in the game project in the build process.</p>
+				<p>The game uses Box2D as physics engine and has an InputManager that supports both keyboard/mouse and controller.</p>
+				<p>It also includes a ResourceManager that loads and stores textures and fonts. Additionally it can also load in JSON, and this was used to load in levels for DigDug.</p>
+				<p>The engine uses certain <a href="https://gameprogrammingpatterns.com/">Game Programming Patterns</a> such as Observer/Subject and Finite State Machine.</p>
+				<p>It also uses the component system and the GameObject these are attached to is Final.</p>
+				<p>The Game Loop features a FixedUpdate, Update, LateUpdate and Render. But the Render is only used internally, as any graphical components get stored seperately since this is only a 2D engine, to prevent every GameObject being iterated again in the render stage.</p>
+				<p>The project is available <a href="https://github.com/Kuuyo/Small_2D_Engine_DigDug">here</a> on GitHub.</p>
 			</div>
 		</div>
 
 		<div class="section project">
 			<div class="content media">
-
+				<img src="../img/digdug_screenshot.png">
+				<img src="../img/digdug_screenshot2.png">
 			</div>		
 		</div>
 
