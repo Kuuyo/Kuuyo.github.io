@@ -276,6 +276,7 @@ p.about_text
 {
 	width: 490px;
 	display: inline-block !important;
+	vertical-align: middle;
 }
 
 .project ul
