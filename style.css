@@ -123,19 +123,23 @@ a:active
 {
 	border-top: 1px solid #eee;
 	margin-top: 15px;
-	padding-top: 2px;
+	padding-top: 5px;
 }
 
 .header_nav ul li
 {
 	display: inline-block;
-	width: 100px;
 	vertical-align: middle;
 }
 
 .header_nav ul li a
 {
 	text-decoration: none;
+	text-align: center;
+	display: inline-block;
+	width: 80px;
+	padding: 2px;
+	background-color: #1e1e1e;
 }
 
 
