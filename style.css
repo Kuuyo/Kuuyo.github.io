@@ -71,7 +71,7 @@ a:active
 
 .header_padding
 {
-	padding-top: 100px;
+	padding-top: 130px;
 }
 
 .content
@@ -102,7 +102,7 @@ a:active
 {
 	display: block;
 	position: relative;
-	top: -120px;
+	top: -150px;
 	visibility: hidden;
 }
 
@@ -123,13 +123,13 @@ a:active
 {
 	border-top: 1px solid #eee;
 	margin-top: 15px;
-	padding-top: 5px;
 }
 
 .header_nav ul li
 {
 	display: inline-block;
 	vertical-align: middle;
+	margin-top: 5px;
 }
 
 .header_nav ul li a
