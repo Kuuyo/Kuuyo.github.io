@@ -145,10 +145,11 @@ a:active
 
 /*Projects----------------------------------*/
 
+
 ul.projects_list li
 {
 	width: 320px;
-	height: 250px;	
+	height: 290px;	
 	overflow: hidden;
 	display: inline-block;
 	margin: 5px;
@@ -159,16 +160,22 @@ ul.projects_list li a
 	text-decoration: none;
 }
 
-ul.projects_list li img
-{
-	width: 330px;
-}
-
 ul.projects_list li:hover
 {
-	margin: 0;
-	width: 330px;
-	height: 260px;
+	margin: 0 5px;
+	height: 300px;
+}
+
+.projects_icons
+{
+	background-color: #101010;
+	padding: 5px 0 0 5px;
+	height: 40px;
+}
+
+.projects_icons img
+{
+	width: 30px;
 }
 
 .projects_imgwrapper
@@ -178,6 +185,13 @@ ul.projects_list li:hover
   	align-items: center;
   	justify-content: center;
   	overflow: hidden;
+  	background-color: #101010;
+}
+
+.projects_imgwrapper img
+{
+	width: 330px;
+	margin-right: 5px;
 }
 
 .projects_bar
