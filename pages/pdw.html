@@ -47,7 +47,11 @@
 				<h1>PerforceDiscordWebhook</h1>
 
 				<p>When developing <a href="punch.html">Punch</a> along with four others, we used Perforce as our source control and Discord as our communication platform.</p>
+			</div>
+		</div>
 
+		<div class="section project">
+			<div class="content">
 				<p>Situation: I was responsible for a lot in the project. Therefore I often got contacted for help. Sometimes I was unable to figure out the problem immediately as I was e.g. on a train and Perforce does not have a phone app.</p>
 
 				<p>Task: Be able to see changes and changelists while away from a computer.</p>
@@ -56,7 +60,11 @@
 
 				<p>Reflection: Apart from me being able to overlook all changes and helping wherever I was, it also saved us. When we were close to the deadline of Punch, I got notified there was a new changelist. When I went to look what it was, I saw that a couple of files had been deleted. <br>
 				I quickly launched the game and some UI elements were gone. I immediately reverted the deletion on Perforce and was happy I created and set up the bot.</p>
+			</div>
+		</div>
 
+		<div class="section project">
+			<div class="content">
 				<p>Bot process:</p>
 				<ul>
 					<li>Fetches the latest 5 changes every 3 minutes (As we were a small team of 5)</li>
@@ -66,16 +74,29 @@
 					<li>Will generate a .html if the change is an edit, with the information of the standard diff2 of Perforce</li>
 					<li>Uses a Github repo that has Github Pages enabled to upload these htmls to and adds them as links to the webhook</li>
 				</ul>
+			</div>
+		</div>
 
-				<p>There are multiple versions, as I wanted to broaden my coding skills. I started with Ruby, as I had used the Ruby Discord API before. But found out it didn't support an extended diff file, so it did not fit the requirements.</p>
-				<p>Then I wrote the entire thing again but in C#. But apparently the C# Perforce API only supports Windows, so that didn't fit the requirement of running on Heroku.</p>
-				<p>Finally I wrote it in C++, which met all the requirements.</p>
+		<div class="section project">
+			<div class="content">
+				<p>There are multiple versions, as I wanted to broaden my coding skills.
+					<ul>
+						<li>I started with Ruby, as I had used the Ruby Discord API before. But found out it didn't support an extended diff file, so it did not fit the requirements.</li>
+						<li>Then I wrote the entire thing again but in C#. But apparently the C# Perforce API only supports Windows, so that didn't fit the requirement of running on Heroku.</li>
+						<li>Finally I wrote it in C++, which met all the requirements.</li>
+					</ul>
+				</div>
+		</div>
 
+		<div class="section project">
+			<div class="content">
 				<p>On the GitHub of the C++ version, there's a manual how to set it up yourself.</p>
 
 				<p>C++ source code is available <a href="https://github.com/Kuuyo/PerforceDiscordWebhookCpp" target="_blank">here</a> on GitHub. (Deployable on Heroku)<br>
-					C# source code is available <a href="https://github.com/Kuuyo/PerforceDiscordWebhookNET" target="_blank">here</a> on GitHub. (Windows only, Perforce API restriction)<br>
-					Ruby source code is available <a href="https://github.com/Kuuyo/PerforceDiscordWebhook" target="_blank">here</a> on GitHub. (Minimal version)
+
+				C# source code is available <a href="https://github.com/Kuuyo/PerforceDiscordWebhookNET" target="_blank">here</a> on GitHub. (Windows only, Perforce API restriction)<br>
+
+				Ruby source code is available <a href="https://github.com/Kuuyo/PerforceDiscordWebhook" target="_blank">here</a> on GitHub. (Minimal version)
 				</p>
 			</div>
 		</div>
